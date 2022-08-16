@@ -2,7 +2,7 @@
 
 <img align="right" width="296" height="600"  src="https://github.com/raheemadamboev/observe-connectivity/blob/master/banner.gif" />
 
-A simple app that observes connectivity via Kotlin Flow.
+A simple app that observes connectivity via Kotlin Flows.
 
 **Observe Connectivity**
 
