@@ -1,4 +1,4 @@
-package xyz.teamgravity.observeconnectivity
+package xyz.teamgravity.observeconnectivity.presentation.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,9 +7,13 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import xyz.teamgravity.observeconnectivity.ui.theme.ObserveConnectivityTheme
+import dagger.hilt.android.AndroidEntryPoint
+import xyz.teamgravity.observeconnectivity.presentation.screen.ConnectionScreen
+import xyz.teamgravity.observeconnectivity.presentation.theme.ObserveConnectivityTheme
 
-class MainActivity : ComponentActivity() {
+@AndroidEntryPoint
+class Main : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -18,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-
+                    ConnectionScreen()
                 }
             }
         }

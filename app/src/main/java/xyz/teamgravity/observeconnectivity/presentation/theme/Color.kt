@@ -1,4 +1,4 @@
-package xyz.teamgravity.observeconnectivity.ui.theme
+package xyz.teamgravity.observeconnectivity.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
