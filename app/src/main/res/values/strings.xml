@@ -2,5 +2,5 @@
     <string name="app_name">Observe Connectivity</string>
 
     <!-- Connection -->
-    <string name="your_connection">Your connection %1$s</string>
+    <string name="your_connection">Your connection: %1$s</string>
 </resources>
